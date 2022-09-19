@@ -1,0 +1,40 @@
+{{#each errors}}
+  <div class="alert alert-danger alert-dismissible fade show" role="alert">
+    {{text}}
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+{{/each}}
+
+<div class="col-md-4 mx-auto">
+  <div class="card">
+    <div class="card-header text-center">
+      <h3>Editar</h3>
+    </div>
+    <div class="card-body">
+      <form action="/empleos/edit-empleos/{{empleo._id}}?_method=PUT" method="POST">
+        <input type="hidden" name="_method" value="PUT" />
+    
+
+
+<div class="mb-3">
+  <label for="email">Email:</label>
+  <input type="email" name="email" class="form-control" value="{{empleo.email}}" />
+</div>
+
+
+        <div class="mb-3">
+          <label for="description">Descripcion:</label>
+          <textarea
+            name="description"
+            class="form-control"
+          >{{empleo.description}}</textarea>
+        </div>
+        <button class="btn btn-primary w-100" type="submit">
+          Guardar
+        </button>
+      </form>
+    </div>
+  </div>
+</div>

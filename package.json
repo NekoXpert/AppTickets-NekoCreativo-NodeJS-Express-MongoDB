@@ -1,0 +1,49 @@
+{
+  "name": "mekocreativo",
+  "version": "2.0.0",
+  "description": "Web APP",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nekosor/NekoCreativo.git"
+  },
+  "keywords": [],
+  "author": "Nekosor",
+  "license": "ISC",
+  "devDependencies": { 
+    "dotenv": "^16.0.1",
+    "handlebars": "^4.7.7",
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": { 
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cjs": "^0.0.11",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^4.6.0",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "csurf": "^1.9.0",
+    "debug": "~2.6.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "express-validator": "^6.14.2",
+    "handlebars": "^4.7.7",
+    "method-override": "^3.0.0",
+    "mongo": "^0.1.0",
+    "mongoose": "^6.4.4",
+    "morgan": "^1.10.0",
+    "node": "^18.5.0",
+    "nodemon": "^2.0.19",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "serve-favicon": "~2.4.2",
+    "stripe": "^4.23.1"
+  }
+}

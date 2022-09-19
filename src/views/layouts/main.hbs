@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Inicio</title>
+    <link rel="icon" type="image/x-icon" href="/static/nkfavicon.ico">
+
+
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/cerulean/bootstrap.min.css"
+  integrity="sha384-3fdgwJw17Bi87e1QQ4fsLn4rUFqWw//KU0g8TvV6quvahISRewev6/EocKNuJmEw" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/main.css">
+
+
+<!-- Bootstrap CSS -->
+
+<!--  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/cerulean/bootstrap.min.css"
+  integrity="sha384-3fdgwJw17Bi87e1QQ4fsLn4rUFqWw//KU0g8TvV6quvahISRewev6/EocKNuJmEw" crossorigin="anonymous">
+     FONT AWESOME -->
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+      CUSTOM CSS -->
+    <!-- <link rel="stylesheet" href="/css/main.css"> -->
+
+    {{> navigation }}
+    
+    <main class="container p-5">
+      <div class="col-md-4 offset-md-4">
+        {{> messages }}
+        {{> errors }}
+      </div>
+      {{{ body }}}
+    </main>
+
+    
+  </head>
+  <body>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h2>PRODUCTOS <b>TENDENCIAS</b></h2>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+        <!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for carousel items -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-sm-3">
+                <div class="thumb-wrapper">
+                  <div class="img-box">
+                    <img src="/img/hardware/pcgamerystream.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="thumb-content">
+                    <h4>PC GAMER & STREAMING</h4>
+                   
+                    <p class="item-price"><strike>$980.00 </strike> <span> $940.90</span></p>
+                    <div class="star-rating">
+                      <ul class="list-inline">
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                      </ul>
+                    </div>
+                    <a href="#" class="btn btn-primary">Agregar a Carrito</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="thumb-wrapper">
+                  <div class="img-box">
+                    <img src="/img/hardware/pcgamer.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="thumb-content">
+                    <h4>PC GAMER QUALITY FULL HD</h4>
+                    <p class="item-price"><strike>$890.00</strike> <span>$870.90</span></p>
+                    <div class="star-rating">
+                      <ul class="list-inline">
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                      </ul>
+                    </div>
+                    <a href="#" class="btn btn-primary">AGREGAR A CARRITO</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="thumb-wrapper">
+                  <div class="img-box">
+                    <img src="/img/hardware/pcrare.jpg" class="img-fluid" alt="">
+                  </div>
+                  <div class="thumb-content">
+                    <h4>PC STYLE DESIGN</h4>
+                    <p class="item-price"><strike>$850.00</strike> <span>$799.90</span></p>
+                    <div class="star-rating">
+                      <ul class="list-inline">
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
+                      </ul>
+                    </div>
+                    <a href="#" class="btn btn-primary">AGREGAR A CARRITO</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="thumb-wrapper">
+                  <div class="img-box">
+                    <img src="/img/hardware/pcgirl.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="thumb-content">
+                    <h4>PC LADY POWER</h4>
+                    <p class="item-price"><strike>$750.00</strike> <span>$680.00</span></p>
+                    <div class="star-rating">
+                      <ul class="list-inline">
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                      </ul>
+                    </div>
+                    <a href="#" class="btn btn-primary">AGREGAR A CARRITO</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-sm-3">
+                <div class="thumb-wrapper">
+                  <div class="img-box">
+                    <img src="/img/hardware/pcpower.jpg" class="img-fluid" alt="">
+                  </div>
+                  <div class="thumb-content">
+                    <h4>PC DARK EDITION</h4>
+                    <p class="item-price"><strike>$620.00</strike> <span>$589.90</span></p>
+                    <div class="star-rating">
+                      <ul class="list-inline">
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                      </ul>
+                    </div>
+                    <a href="#" class="btn btn-primary">AGREGAR A CARRITO</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="thumb-wrapper">
+                  <div class="img-box">
+                    <img src="/img/hardware/pcbaby.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="thumb-content">
+                    <h4>PC BABY PRO</h4>
+                    <p class="item-price"><strike>$570.00</strike> <span>$499.90</span></p>
+                    <div class="star-rating">
+                      <ul class="list-inline">
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
+                      </ul>
+                    </div>
+                    <a href="#" class="btn btn-primary">AGREGAR A CARRITO</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="thumb-wrapper">
+                  <div class="img-box">
+                    <img src="/img/hardware/pcgirlpower.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="thumb-content">
+                    <h4>PC MINI GIRL POWER</h4>
+                    <p class="item-price"><strike>$480.00</strike> <span>$429.90</span></p>
+                    <div class="star-rating">
+                      <ul class="list-inline">
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                      </ul>
+                    </div>
+                    <a href="#" class="btn btn-primary">AGREGAR A CARRITO</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="thumb-wrapper">
+                  <div class="img-box">
+                    <img src="/img/hardware/pcstyle.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="thumb-content">
+                    <h4>PC STYLE WHITE</h4>
+                    <p class="item-price"><strike>$419.00</strike> <span>$390.90</span></p>
+                    <div class="star-rating">
+                      <ul class="list-inline">
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                      </ul>
+                    </div>
+                    <a href="#" class="btn btn-primary">AGREGAR A CARRITO</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-sm-3">
+                <div class="thumb-wrapper">
+                  <div class="img-box">
+                    <img src="/img/hardware/pcbasicpower.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="thumb-content">
+                    <h4>PC BASIC POWER</h4>
+                    <p class="item-price"><strike>$379.00</strike> <span>$339.00</span></p>
+                    <div class="star-rating">
+                      <ul class="list-inline">
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                      </ul>
+                    </div>
+                    <a href="#" class="btn btn-primary">AGREGAR A CARRITO</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="thumb-wrapper">
+                  <div class="img-box">
+                    <img src="/img/hardware/pcbasicthor.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="thumb-content">
+                    <h4>PC BASIC THOR</h4>
+                    <p class="item-price"><strike>$315.00</strike> <span>$290.90</span></p>
+                    <div class="star-rating">
+                      <ul class="list-inline">
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                      </ul>
+                    </div>
+                    <a href="#" class="btn btn-primary">AGREGAR A CARRITO</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="thumb-wrapper">
+                  <div class="img-box">
+                    <img src="/img/hardware/pcbasicblue.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="thumb-content">
+                    <h4>PC BASIC BLUE</h4>
+                    <p class="item-price"><strike>$270.00</strike> <span>$259.90</span></p>
+                    <div class="star-rating">
+                      <ul class="list-inline">
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                      </ul>
+                    </div>
+                    <a href="#" class="btn btn-primary">AGREGAR A CARRITO</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="thumb-wrapper">
+                  <div class="img-box">
+                    <img src="/img/hardware/pcultrabasic.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="thumb-content">
+                    <h4>PC ULTRA BASIC</h4>
+                    <p class="item-price"><strike>$230.00</strike> <span>$199.90</span></p>
+                    <div class="star-rating">
+                      <ul class="list-inline">
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                      </ul>
+                    </div>
+                    <a href="#" class="btn btn-primary">AGREGAR A CARRITO</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Carousel controls -->
+        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+          <i class="fa fa-angle-left"></i>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+          <i class="fa fa-angle-right"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- barra -->
+
+
+<div class="contact-form">
+  <form method="POST" action="/post-feedback">
+    <h1>¿Buscas Trabajo?, ¡Dejanos tus datos!</h1>
+    <p class="hint-text">Nos encantaría saber si te gustaria pertenecer a la familia de asesores informáticos, envíenos un mensaje si tiene con sus datos nos contactaremos contigo.</p>
+    <div class="form-group">
+      <label for="inputName">Nombre</label>
+      <input type="text" name="Postulante" class="form-control" id="inputName" required>
+    </div>
+    <div class="form-group">
+      <label for="inputEmail">Correo Electronico</label>
+      <input type="email" name="emailContacto" class="form-control" id="inputEmail" required>
+    </div>
+    <div class="form-group">
+      <label for="inputMessage">Comentario</label>
+      <textarea class="form-control" name="comentario" id="inputMessage" rows="5" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary btn-block"><i class="fa fa-paper-plane"></i> Send Message</button>
+  
+  </form>
+  <a href="/view-feedbacks">Ver feedbacks</a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- FOOTER -->
+  
+    <!-- Scritps -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

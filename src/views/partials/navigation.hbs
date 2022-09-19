@@ -1,0 +1,70 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark p-2">
+  <div class="container">
+    <a class="navbar-brand" href="/">Diseño y Asesorías Informáticas</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="/about">Acerca de Nosotros</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ms-auto">
+        {{#if user}}
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+             Tickets
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="/notes">Ticket de Atención</a>
+              <a class="dropdown-item" href="/notes/add">Agregar un Ticket</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="/auth/logout">Salir</a>
+            </ul>
+          </li>
+        {{else}}
+          <li class="nav-item">
+            <a class="nav-link" href="/auth/signin">Ingresar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/auth/signup">Registrarse</a>
+          </li>
+        {{/if}}
+      </ul>
+
+<!-- separador -->
+<ul class="navbar-nav ms-auto">
+  {{#if user}}
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+      aria-expanded="false">
+      Postulaciones
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+      <a class="dropdown-item" href="/empleos/add">Agregar una postulación</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="/auth/logout">Salir</a>
+    </li>
+    {{else}}
+
+    {{/if}}
+    </ul>
+    </div>
+    </div>
+    </nav>
