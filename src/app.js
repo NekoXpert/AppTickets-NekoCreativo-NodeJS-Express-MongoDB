@@ -31,7 +31,7 @@ import "./config/passport.js";
 const app = express();
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-var dbConn = mongodb.MongoClient.connect("mongodb://mongodb:$exterNO2024@mongodb-q06w:27017/DB_PASSWORD");
+var dbConn = mongodb.MongoClient.connect("mongodb://mongodb-q06w:27017/?compressors=disabled&gssapiServiceName=mongodb");
 
 app.use(express.urlencoded({ extended: true }));
 
