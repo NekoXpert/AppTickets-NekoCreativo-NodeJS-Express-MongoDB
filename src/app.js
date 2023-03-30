@@ -31,7 +31,7 @@ import "./config/passport.js";
 const app = express();
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-var dbConn = mongodb.MongoClient.connect("mongodb+srv://nekocreativo:PC*****20**@clusternekocrea.bqvbrhr.mongodb.net/?retryWrites=true&w=majority");
+var dbConn = mongodb.MongoClient.connect("mongodb://mongodb:$exterNO2024@mongodb-q06w:27017/DB_PASSWORD");
 
 app.use(express.urlencoded({ extended: true }));
 
